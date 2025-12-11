@@ -22,3 +22,5 @@ alias untar="tar -xvf"
 export PATH="$PATH:/home/szachu/.local/bin"
 
 eval "$(zoxide init bash)"
+
+export PS1="[\[\e[1;32m\]\u@\h\[\e[0m\] \[\e[1;34m\]\W\[\e[0m\]]\$ "

@@ -18,3 +18,6 @@ vim.keymap.set({ "i", "s" }, "<C-E>", function()
 		ls.change_choice(1)
 	end
 end, { silent = true })
+
+vim.keymap.set({'n', 'x', 'o'}, 's', '<Plug>(leap)')
+vim.keymap.set('n',             'S', '<Plug>(leap-from-window)')
